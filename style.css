@@ -73,6 +73,12 @@ form .input-field:first-child{
   bottom: -5px;
   left: 0;
   background: linear-gradient(45deg, #8e2de2, #00c9a7);
+  transform: scaleX(0);
+  transition:all 0.3s ease-in-out;
+}
+
+.input-field input:focus ~ .underline::after{
+  transform: scaleX(1);
 }
 
 .input-field input{
@@ -145,3 +151,4 @@ form input[type="submit"]:hover{
 .footer .social-field.linkedin{
   background: linear-gradient(to right, #1e3c72, #2a5298 );
 }
+/* by Marco Aurelio Menezes */
