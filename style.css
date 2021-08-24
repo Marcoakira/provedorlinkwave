@@ -42,3 +42,15 @@ main h2::before {
   border-radius: 8px;
   background: linear-gradient(45deg, #8e2de2, #4a00e0);
 }
+.input-field{
+  position: relative;
+
+}
+.input-field{
+  outline: none;
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.7);
+}
+.input-field input::placeholder{
+  
+}
